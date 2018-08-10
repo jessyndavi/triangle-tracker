@@ -7,7 +7,7 @@ div{
 input{
   width: 45px;
 }
-.container {
+.container{
   background-image :url('../triangle-tracker/css/wall.jpeg'); 
 }
 input[type=number]{
