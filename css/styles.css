@@ -6,7 +6,7 @@ input{
   width: 45px;
 }
 .container {
-  background-image: url(triangle.jpg)
+  background-image :url('../css/triangle.jpg'); 
 }
 input[type=number]{
   width = 100%;
