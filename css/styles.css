@@ -19,12 +19,12 @@ input[type=number]{
 button{
   width: 100px;
   height: 40px;
-  background-color: darkgrey;
+  background-color: red;
   border-radius: 4px;
   border: 1px solid #ccc;
 }
 button:hover{
-  background-color: grey;
+  background-color: yellow;
 }
 p{
   font-style: italic;
