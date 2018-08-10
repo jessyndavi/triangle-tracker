@@ -1,13 +1,12 @@
 div{
-  border-radius: 5px;
-  padding: 20px;
+ 
   text-align: center;
 }
 input{
   width: 45px;
 }
 .container {
-  background-image: url(images(1).jpeg)
+  background-image: url(triangle.jpg)
 }
 input[type=number]{
   width = 100%;
