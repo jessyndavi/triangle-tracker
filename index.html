@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <title>Triangle tracker</title>
+  </head>
+  <body>
+    <div>
+      <h1>Let's determine the type of triangle</h1>
+      <!-- link index.html to scripts.js-->
+      <script src="js/scripts.js"></script>
+      <!--Add input types which collect users data and pushes to scripts.js-->
+      <p>Enter the first dimension of the triangle</p>
+      <input type="number" id="sideOne" placeholder="Enter value" onfocus="placeholder=''" onblur="placeholder='Enter value'">
+      <p>Enter the second dimension of the triangle</p>
+      <input type="number" id="sideTwo" placeholder="Enter value" onfocus="placeholder=''" onblur="placeholder='Enter value'">
+      <p>Enter the third dimension of the triangle</p>
+      <input type="number" id="sideThree" placeholder="Enter value" onfocus="placeholder=''" onblur="placeholder='Enter value'">
+      <br>
+      <br>
+      <!-- Add button which executes function {triangle()} from scripts.js-->
+      <button type="button" onclick="triangle()">submit</button>
+    </div>
+  </body>
+</html>
